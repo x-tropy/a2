@@ -6,8 +6,8 @@ public class LinkedIterator<T> implements Iterator<T> {
     private LinearNode<T> current;
 
     // Sets up this iterator using the specified items
-    public LinkedIterator(LinearNode<T> collection) {
-        current = collection;
+    public LinkedIterator(LinearNode<T> node) {
+        current = node;
     }
 
     // 判断是否还有下一个元素

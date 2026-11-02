@@ -1,6 +1,6 @@
 public class TransitLine {
 
-    private char lineLetter; // 线路标识,如 'A'、'B'
+    private char lineLetter;  // 线路标识,如 'A'、'B'
     private Station firstStn; // 该线路的第一个站点,即链表头
 
     public TransitLine(char ln, Station first) {
